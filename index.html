@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Alan Fros - Github</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166094441-1"></script>
+			<script>
+					window.dataLayer = window.dataLayer || [];
+					function gtag(){dataLayer.push(arguments);}
+					gtag('js', new Date());
+
+					gtag('config', 'UA-166094441-1');
+			</script>
+	</head>
+	<body class="is-preload">
+		<script>
+		var texto = "Python Developer Jr., Machine Learing & Deep Learning enthusiast.";
+		var result;
+
+		var count = 0;
+		function digitar() {
+		result = document.getElementById("result");
+		window.setTimeout(function() { inserir(texto[count]) }, 200);
+		}
+
+		function inserir(letra) {
+		result.innerHTML += letra;
+		count++;
+		if(count < texto.length)
+			window.setTimeout(function() { inserir(texto[count]) }, 200);
+		}
+
+		window.onload = digitar;
+		</script>
+		<!-- Wrapper-->
+			<div id="wrapper">
+
+				<!-- Nav -->
+					<!-- Nav -->
+					<nav id="nav">
+						<a href="#home" class="fas fa-home active"><span>Home</span></a>
+						<a href="#about" class="icon fa-user"><span>About</span></a>
+						<!--<a href="#work" class="icon fa-folder"><span>Projects</span></a> -->
+						<a href="#social" class="fas fa-hashtag"><span>Social</span></a>
+						<!-- <a href="#contact" class="icon fa-envelope"><span>Contact-Me</span></a> -->
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- home -->
+							<article id="home" class="panel intro">
+								<header>
+									<h1 id="namesignature">Alan Fros</h1>
+									<div id="result"></div>
+								</header>
+								<a href="#about" class="jumplink pic">
+									<img src="images/me.png" alt="Alan Fros" />
+								</a>
+							</article>
+
+						<!-- About -->
+							<article id="about" class="panel">
+								<header>
+									<h2>About Me</h2>
+								</header>
+								<p>I'm Alan, I'm 36 years old, I live in Rio de Janeiro, Brazil.</p>
+									I am a python jr developer, I graduate B.tech in Systems Analysis and Development in Universidade Estácio de Sá(UNESA), 
+									I take specialization courses in Machine Learning and Deep Learning both at Udemy and at other institutions in Brazil, 
+								among them IGTI - Instituto de Gestão e Tecnologia da Informação, I intend to act firmly in Deep Learning soon .</p>
+								
+								</article>
+
+						<!-- social -->
+							<article id="social" class="panel">
+								<header>
+									<h2>Find Me- Social Networks</h2>
+								</header>
+								<section>
+									<ul>
+										<li><span class="fab fa-twitter"> Twitter: <a target="_blank" href="https://twitter.com/alanfros"> @alanfros</a></span></li>
+										<li><span class="fab fa-instagram"> Instagram: <a target="_blank" href="https://www.instagram.com/alanfros"> @alanfros</a></span></li>
+										<li><span class="fab fa-github"> GitHub: <a target="_blank" href="https://github.com/alanfros"> @alanfros</a></span></li>
+										<li><span class="fab fa-linkedin-in"> Linkedin: <a target="_blank" href="https://www.linkedin.com/in/act-fros/"> @act-fros</a></span></li>
+										<li><span class="fab fa-medium-m"> Medium: <a target="_blank" href="https://medium.com/@alanfros"> @alanfros</a></span></li>
+										<li><span class="fab fa-kaggle"> Kaggle: <a target="_blank" href="https://www.kaggle.com/alanfros"> @alanfros</a></span></li>
+									</ul>
+
+								</section>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact" class="panel">
+								<header>
+									<h2>Contact Me</h2>
+								</header>
+								<form action="#" method="post">
+									<div>
+										<div class="row">
+											<div class="col-6 col-12-medium">
+												<input type="text" name="name" placeholder="Name" />
+											</div>
+											<div class="col-6 col-12-medium">
+												<input type="text" name="email" placeholder="Email" />
+											</div>
+											<div class="col-12">
+												<input type="text" name="subject" placeholder="Subject" />
+											</div>
+											<div class="col-12">
+												<textarea name="message" placeholder="Message" rows="6"></textarea>
+											</div>
+											<div class="col-12">
+												<input type="submit" value="Send Message" />
+											</div>
+										</div>
+									</div>
+								</form>
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>&copy; Alan Fros.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
